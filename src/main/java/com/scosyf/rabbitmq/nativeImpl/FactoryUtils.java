@@ -1,4 +1,4 @@
-package com.scosyf.rabbitmq.raw;
+package com.scosyf.rabbitmq.nativeImpl;
 
 import com.rabbitmq.client.ConnectionFactory;
 
