@@ -29,7 +29,6 @@ public class AmqpConfig {
 		return connectionFactory;
 	}
 	
-	//这里的amqpadmin网上说要加，但是这里不加也没问题，@EnableRabbit这个必须加
 	@Bean
     public AmqpAdmin amqpAdmin() {
         return new RabbitAdmin(mqConnectionFactory());
